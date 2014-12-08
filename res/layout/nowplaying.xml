@@ -23,7 +23,7 @@
     android:layout_height="64dip"
     android:focusable="true"
     android:visibility="gone"
-    android:background="@drawable/music_bottom_playback_bg"
+    android:background="@color/material_grey_700"
     android:orientation="vertical"
     android:paddingTop="3dip"
     android:paddingBottom="2dip">

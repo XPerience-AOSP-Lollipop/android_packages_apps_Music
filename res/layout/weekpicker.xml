@@ -22,7 +22,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@color/background_material_dark">
 
     <TextView
         android:text="@string/weekpicker_title"
@@ -32,7 +33,7 @@
         android:layout_height="wrap_content" />
 
     <!-- weeks -->
-    <com.android.music.VerticalTextSpinner
+    <com.klozz.music.VerticalTextSpinner
         android:id="@+id/weeks"
         android:layout_width="120dip"
         android:layout_height="120dip"
@@ -49,6 +50,7 @@
         android:layout_height="wrap_content"
         android:padding="6dip"
         android:background="#ffffff" >
+
 
         <Button android:id="@+id/set"
             android:layout_width="120dip"

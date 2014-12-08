@@ -24,7 +24,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@color/background_material_dark"/>
 
     <TextView android:id="@+id/duration"
         android:textSize="12sp"
@@ -36,7 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/line1"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:background="@color/background_material_dark"/>
 
     <!-- The height is set to half the height of the parent, which is 64 dip -->
     <TextView android:id="@+id/line1"
@@ -48,7 +50,8 @@
         android:layout_toRightOf="@id/icon"
         android:layout_toLeftOf="@id/duration"
         android:ellipsize="marquee"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:background="@color/background_material_dark"/>
 
     <!-- The height is set to half the height of the parent, which is 64 dip -->
     <TextView android:id="@+id/line2" android:visibility="visible"

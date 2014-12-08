@@ -21,7 +21,8 @@
     android:layout_height="64dip"
     android:gravity="center_vertical"
     android:ignoreGravity="@+id/icon"
-    android:paddingLeft="47dip">
+    android:paddingLeft="47dip"
+    android:background="@color/background_material_dark">
 
     <include layout="@layout/track_list_item_common" />
 

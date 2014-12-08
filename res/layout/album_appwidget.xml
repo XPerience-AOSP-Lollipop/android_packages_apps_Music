@@ -18,7 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="@drawable/appwidget_bg">
+    android:background="@color/background_material_dark">
 
    <LinearLayout
         android:id="@+id/album_appwidget"

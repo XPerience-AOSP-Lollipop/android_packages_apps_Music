@@ -18,6 +18,17 @@
     <color name="appwidget_text">#ffffffff</color>
 
     <color name="transparent">#00000000</color>
+    <color name="bg">#ff991635</color><!--original ff303030-->
+    <color name="accent">#673ab7</color>
+    <color name="primary">#7b1fa2</color>
+    <color name="primary_dark">#4a148c</color>
+    <color name="material_purple_600">#8e24aa</color>
+    <color name="material_purple_800">#6a1b9a</color>
+    <color name="material_red_400">#ef5350</color>
+    <color name="material_grey_300">#e0e0e0</color>
+    <color name="material_grey_700">#616161</color>
+    <color name="material_red_A700">#d50000</color>
+    <color name="material_red_700">#d32f2f</color>
 
 </resources>
 

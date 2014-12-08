@@ -18,6 +18,7 @@
     android:label="@string/search_title"
     android:hint="@string/search_hint"
     android:includeInGlobalSearch="true"
+    android:background="@color/background_material_dark"
 
     android:searchSuggestAuthority="media"
     android:searchSuggestPath="external/audio/search"

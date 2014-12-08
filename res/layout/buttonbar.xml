@@ -20,12 +20,14 @@
 <TabWidget xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/buttonbar"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:colorPrimary="@color/material_red_A700">
 
     <TextView
         android:id="@+id/artisttab"
         android:focusable="true"
-        android:background="@drawable/buttonbarbackground"
+        android:background="@color/material_blue_grey_950"
         android:drawableTop="@drawable/ic_tab_artists"
         android:text="@string/browse_menu"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -37,12 +39,13 @@
         android:layout_marginLeft="-3dip"
         android:layout_marginRight="-3dip"
         android:layout_width="match_parent"
-        android:layout_height="64dip" />
+        android:layout_height="64dip"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/albumtab"
         android:focusable="true"
-        android:background="@drawable/buttonbarbackground"
+        android:background="@color/material_blue_grey_950"
         android:drawableTop="@drawable/ic_tab_albums"
         android:text="@string/albums_menu"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -54,12 +57,13 @@
         android:layout_marginLeft="-3dip"
         android:layout_marginRight="-3dip"
         android:layout_width="match_parent"
-        android:layout_height="64dip" />
+        android:layout_height="64dip"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/songtab"
         android:focusable="true"
-        android:background="@drawable/buttonbarbackground"
+        android:background="@color/material_blue_grey_950"
         android:drawableTop="@drawable/ic_tab_songs"
         android:text="@string/tracks_menu"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -71,12 +75,13 @@
         android:layout_marginLeft="-3dip"
         android:layout_marginRight="-3dip"
         android:layout_width="match_parent"
-        android:layout_height="64dip" />
+        android:layout_height="64dip"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/playlisttab"
         android:focusable="true"
-        android:background="@drawable/buttonbarbackground"
+        android:background="@color/material_blue_grey_950"
         android:drawableTop="@drawable/ic_tab_playlists"
         android:text="@string/playlists_menu"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -88,7 +93,8 @@
         android:layout_marginLeft="-3dip"
         android:layout_marginRight="-3dip"
         android:layout_width="match_parent"
-        android:layout_height="64dip" />
+        android:layout_height="64dip"
+        android:elevation="5dp"/>
 
 </TabWidget>
 

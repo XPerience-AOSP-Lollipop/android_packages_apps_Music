@@ -21,4 +21,5 @@
         android:drawable="@android:color/transparent" />
     <item android:state_selected="false"
         android:drawable="@color/expanding_child_background" />
+
 </selector>
